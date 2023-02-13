@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!-- Implement from below -->
+  <body>
+    <div class="fullpage-container">
+      <header>
+          <!-- you can add the logo image here -->
+          <img class="logo" src="campus_cafe.png">
+      </header>
+      <div class="subheading-orange">Delicious, From-Scratch Recipes Close at Hand</div>
+      <div class="subheading-italics"><em>The fresh choice of UT!</em></div>
+      
+      <div class="order-item">
+        <div class="image-container">
+          <img src="mac.png" alt="A bowl of macaroni and cheese">
+        </div>
+        <div class="main-item-container">
+          <div class="food-name" id="name-0"> Mac and Cheese</div>
+        </div>
+        <div class="food-wrapper">
+          <div class="food-name" style="margin-left: 10%"> $<div id="price-0">5</div> </div>
+          <div class="quantity">
+            <img src="minus_button.png" id="minus-0">
+            <text id="text-0">0</text>
+            <img src="plus_button.png" id="plus-0">
+          </div>
+        </div>
+      </div>
+
+      <div class="order-item">
+        <div class="image-container">
+          <img src="pasta.png" alt="A plate of pasta.">
+        </div>
+        <div class="main-item-container">
+          <div class="food-name" id="name-1"> Pasta </div>
+        </div>
+        <div class="food-wrapper">
+          <div class="food-name" style="margin-left: 10%"> $<div id="price-1">8</div> </div>
+          <div class="quantity">
+            <img src="minus_button.png" id="minus-1">
+            <text id="text-1">0</text>
+            <img src="plus_button.png" id="plus-1">
+          </div>
+        </div>
+      </div>
+
+      <div class="order-item">
+        <div class="image-container">
+          <img src="taco.png" alt="4 tacos on a circular plate.">
+        </div>
+        <div class="main-item-container">
+          <div class="food-name" id="name-2"> Tacos </div>
+        </div>
+        <div class="food-wrapper">
+          <div class="food-name" style="margin-left: 10%"> $<div id="price-2">8</div> </div>
+          <div class="quantity">
+            <img src="minus_button.png" id="minus-2">
+            <text id="text-2">0</text>
+            <img src="plus_button.png" id="plus-2">
+          </div>
+        </div>
+      </div>
+
+      <div class="order-item">
+        <div class="image-container">
+          <img src="enchilada.png" alt="Two enchiladas on a plate.">
+        </div>
+        <div class="main-item-container">
+          <div class="food-name" id="name-3"> Enchilada </div>
+        </div>
+        <div class="food-wrapper">
+          <div class="food-name" style="margin-left: 10%"> $<div id="price-3">10</div> </div>
+          <div class="quantity">
+            <img src="minus_button.png" id="minus-3">
+            <text id="text-3">0</text>
+            <img src="plus_button.png" id="plus-3">
+          </div>
+        </div>
+      </div>
+      <div class="order-strip">
+        <div class="order-strip-left">
+          Subtotal $<text id="subtotal">0</text>
+        </div>
+        <div class="order-strip-right">
+          <button class="button" id="order-button"> Order </button>
+          <button class="button" id="clear-button"
+          style="background-color: rgba(174, 180, 188, 0.53);
+          margin-left: 20px"> 
+          Clear All 
+          </button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
